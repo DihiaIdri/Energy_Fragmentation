@@ -4,7 +4,7 @@ import pandas as pa
 
 def metal_properties():
     metal_data = pa.read_excel('/Users/dihiaidrici/Desktop/SecondPaper/ShockInMetalProperties.xlsx', sheet_name='Fracture_Properties', header=1, index_col=0)
-    strain_rate = 10**5  # s**-1
+    strain_rate = 10**6  # s**-1
 
     # remember that indexing begins at 0
     Al = metal_data.iloc[0]
